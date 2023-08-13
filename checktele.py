@@ -250,17 +250,9 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-ᴛʜᴇ ᴋɪɴɢ ᴏғ ᴀʙᴏᴅ 🍺 
- - - - - - - - - - - -  
-  ‹𓏺  . FIGHT,َِFOR َِYOUR َِdream .
-
-ᴜѕᴇʀɴᴀᴍᴇ : ❲ (@{username}) ❳‌‌  ⚚
-
-ᴛɪᴍᴇ : {current_datetime}
-
-ѕᴀᴠᴇ : ❲ ᴄʜᴀɴɴᴇʟ ❳‌‌  ⚚ 
-
- ʙʏ : ❲ @u0uu0  :  @i_m_q ❳‌‌  ⚚
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @u0uu0
+𝚞𝚜𝚎𝚛 (@{username})
+𝚋𝚢 ↣ @i_m_q
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -317,17 +309,9 @@ async def _(event):
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-                        ᴛʜᴇ ᴋɪɴɢ ᴏғ ᴀʙᴏᴅ 🍺 
- - - - - - - - - - - -  
-  ‹𓏺  . FIGHT,َِFOR َِYOUR َِdream .
-
-ᴜѕᴇʀɴᴀᴍᴇ : ❲ (@{username}) ❳‌‌  ⚚
-
-ᴛɪᴍᴇ : {current_datetime}
-
-ѕᴀᴠᴇ : ❲ ᴄʜᴀɴɴᴇʟ ❳‌‌  ⚚ 
-
- ʙʏ : ❲ @u0uu0  :  @i_m_q ❳‌‌  ⚚ 
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @u0uu0
+𝚞𝚜𝚎𝚛 (@{username})
+𝚋𝚢 ↣ @i_m_q 
   ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -358,18 +342,9 @@ async def _(event):
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-ᴛʜᴇ ᴋɪɴɢ ᴏғ ᴀʙᴏᴅ 🍺 
- - - - - - - - - - - -  
-  ‹𓏺  . FIGHT,َِFOR َِYOUR َِdream .
-
-ᴜѕᴇʀɴᴀᴍᴇ : ❲ (@{username}) ❳‌‌  ⚚
-
-ᴛɪᴍᴇ : {current_datetime}
-
-ѕᴀᴠᴇ : ❲ ᴄʜᴀɴɴᴇʟ ❳‌‌  ⚚ 
-
- ʙʏ : ❲ @u0uu0  :  @i_m_q ❳‌‌  ⚚ 
- 
+𝚝𝚑𝚎 𝚔𝚒𝚗𝚐 ↣ @u0uu0
+𝚞𝚜𝚎𝚛 (@{username})
+𝚋𝚢 ↣ @i_m_q
   ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
