@@ -79,12 +79,14 @@ def gen_user(choice):
         f = [c[0], d[0], c[0], c[0], "bot"]
         random.shuffle(f)
         username = ''.join(f)
+        username = username+'bot'
         if username in banned[0]:
             c = d = random.choices(a)
             d = random.choices(b)
             f = [c[0], d[0], c[0], c[0], "bot"]
             random.shuffle(f)
             username = ''.join(f)
+            username = username+'bot'
         else:
             pass
     if choice == "4":
