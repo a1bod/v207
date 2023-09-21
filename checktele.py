@@ -74,19 +74,17 @@ def gen_user(choice):
         else:
             pass
     if choice == "3":
-        c = random.choices(b)
+        c = d = random.choices(a)
         d = random.choices(b)
-        f = [c[0], d[0]]
+        f = [c[0], d[0], c[0], c[0], "bot"]
         random.shuffle(f)
         username = ''.join(f)
-        username = 'vip'+username
         if username in banned[0]:
-            c = random.choices(b)
+            c = d = random.choices(a)
             d = random.choices(b)
-            f = [c[0], d[0]]
+            f = [c[0], d[0], c[0], c[0], "bot"]
             random.shuffle(f)
             username = ''.join(f)
-            username = 'vip'+username
         else:
             pass
     if choice == "4":
