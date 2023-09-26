@@ -315,7 +315,7 @@ async def _(event):
                     try:
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
-                        await event.client.send_message(event.chat_id, f'''
+                        await event.client.send_message(event.u0uu0, f'''
 ●━━━━━━━━●
 ┏━━━━━┓
 - By ↣ @F_U_F_F_F
