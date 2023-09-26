@@ -78,6 +78,22 @@ def gen_user(choice):
             username = username+'bot'
         else:
             pass
+    if choice == "3":
+        c = d = random.choices(a)
+        d = random.choices(b)
+        f = [c[0], d[0], c[0], c[0],]
+        random.shuffle(f)
+        username = ''.join(f)
+        username = username+'bot'
+        if username in banned[0]:
+            c = d = random.choices(a)
+            d = random.choices(b)
+            f = [c[0], d[0], c[0], c[0]]
+            random.shuffle(f)
+            username = ''.join(f)
+            username = username+'bot'
+        else:
+            pass
     return username
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تشيكر"))
