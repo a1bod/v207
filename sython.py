@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("i_l_n"))
+        await sython(JoinChannelRequest("i_m_q"))
     except BaseException:
         pass
 
@@ -78,7 +78,7 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Ramy  ](tg://openmessage?user_id=1314630552)''')
+    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Abod  ](tg://openmessage?user_id=411414467)''')
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
@@ -92,12 +92,12 @@ async def _(event):
     start = datetime.datetime.now()
     await event.edit(sec2)
     
-ownerhson_id = 1314630552
+ownerhson_id = 411414467
 @sython.on(events.NewMessage(outgoing=False, pattern='/Dev'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('Hi My Developer [ Ramy ](tg://openmessage?user_id=1314630552)')
+        order = await event.reply('Hi My Developer [ Abod ](tg://openmessage?user_id=411414467)')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -108,7 +108,7 @@ async def update(event):
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@i_l_n"))
+        await sython(JoinChannelRequest("@i_m_q"))
     except BaseException:
         pass
  
@@ -119,7 +119,7 @@ GCAST_BLACKLIST = [
 ]
 
 DEVS = [
-    5774423143,
+    411414467,
 ]
 def calc(num1, num2, fun):
     if fun == "+":
@@ -149,5 +149,5 @@ async def spammer(event):
     await event.delete()
     await spam_function(event, reply, cat, sleeptimem, sleeptimet, DelaySpam=True)
 
-print("- RAMY <\>  Userbot Running ..")
+print("- ABOD <\>  Userbot Running ..")
 sython.run_until_disconnected()
