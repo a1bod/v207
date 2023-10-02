@@ -41,7 +41,7 @@ def check_user(username):
     else:
         return "Unavailable"
 def gen_user(choice):
-        if choice == "1":
+    if choice == "1":
         c = d = random.choices(e)
         d = random.choices(a)
         f = [d[0], d[0], c[0], c[0], c[0]]
